@@ -72,7 +72,8 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                'POST webhook' => 'webhook/index'
+                'POST webhook' => 'webhook/index',
+                'GET webhook' => 'webhook/index'
             ],
         ],
         
